@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SolH.H11</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,7 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="H1.cs" />
+    <Compile Include="H10.cs" />
+    <Compile Include="H11.cs" />
+    <Compile Include="H2.cs" />
+    <Compile Include="H3.cs" />
+    <Compile Include="H4.cs" />
+    <Compile Include="H5.cs" />
+    <Compile Include="H6.cs" />
+    <Compile Include="H7.cs" />
+    <Compile Include="H8.cs" />
+    <Compile Include="H9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
